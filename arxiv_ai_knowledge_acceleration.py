@@ -737,18 +737,6 @@ def write_markdown_report(
         f"- Crecimiento mensual ajustado desde enero de 2023: **{summary['post_observed_monthly_growth_pct']:.3f} %**.",
         f"- Diferencia: **{summary['growth_change_percentage_points']:.3f} puntos porcentuales mensuales**.",
         "",
-        "## Interpretación correcta",
-        "",
-        "La diferencia cuantifica una desviación respecto a una tendencia histórica extrapolada. "
-        "No identifica causalidad: también pueden contribuir cambios en el tamaño de la comunidad, "
-        "presiones de publicación, nuevas políticas editoriales, cambios disciplinarios, financiación, "
-        "estacionalidad y otros factores.",
-        "",
-        "arXiv se usa como un proxy parcial de producción científica abierta. El número de preprints "
-        "no equivale de forma directa a cantidad, calidad o solidez del conocimiento generado.",
-        "",
-        "## Comparación de modelos",
-        "",
     ]
 
     report_models = model_table.copy()

@@ -45,6 +45,3 @@ En `arxiv_ia_resultados/` se crean:
 
 Al usar `--include-disciplines` también se generan los gráficos por grupo y una comparación del exceso relativo.
 
-## Nota metodológica
-
-El resultado es una **desviación temporal respecto de una tendencia extrapolada**, no una estimación causal del “efecto de ChatGPT” ni una medición del conocimiento humano total. El número de envíos a arXiv puede cambiar por muchos factores ajenos a la IA generativa.
